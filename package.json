@@ -1,6 +1,6 @@
 {
   "name": "@epinova/richvue",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A lightweight WYSIWYG rich text editor for Vue",
   "author": "Bård Øien <bard.oien@epinova.no>",
   "bugs": {
