@@ -4,16 +4,16 @@
   "description": "A lightweight WYSIWYG rich text editor for Vue",
   "author": "Bård Øien <bard.oien@epinova.no>",
   "bugs": {
-    "url": "https://github.com/Epinova/RichVue/issues"
+    "url": "https://github.com/Epinova/FilthyRichVue/issues"
   },
   "contributors": [
     "André Sharghi <andre.sharghi@epinova.no>"
   ],
-  "homepage": "https://github.com/Epinova/RichVue#readme",
+  "homepage": "https://github.com/Epinova/FilthyRichVue#readme",
   "license": "MIT",
   "main": "config/index.js",
   "repository": {
-    "url": "git+https://github.com/Epinova/epinova-webpack.git"
+    "url": "git+https://github.com/Epinova/FilthyRichVue.git"
   },
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
