@@ -6,9 +6,10 @@
 ```javascript
 <template>
   <div>
-  <filthy-rich-vue />
+    <filthy-rich-vue />
   </div>
 </template>
+
 <script>
 import filthyRichVue from '@epinova/filthy-rich-vue'
 
@@ -17,4 +18,5 @@ export default {
     filthyRichVue
   },
   ...
+</script>
 ```
