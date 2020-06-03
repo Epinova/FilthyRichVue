@@ -1,4 +1,4 @@
-import Vue from 'vue';
-declare class RichVue extends Vue { }
-export default RichVue;
-export { RichVue };
+import FilthyRichVue from './src/components/FilthyRichVue.vue'
+
+export default FilthyRichVue
+export { FilthyRichVue }
