@@ -1,3 +1,3 @@
-# RichVue
+# FilthyRichVue
 
-> The aim of this project is to create a solid rich text editor. The editor is built on a library that converts HTML to JSON, so everything can be validated as JSON, and then be converted back to HTML.
+> Rich text editors are cool and all. But some times, rich isn't rich enough. That's why we created the fithy rich editor instead. It allow you to do anything, utilizing the unlimited power of Vue.js, leizm-html-parser and common JSON models.

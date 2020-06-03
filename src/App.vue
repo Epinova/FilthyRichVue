@@ -1,5 +1,5 @@
 <template>
-  <div id="amazing-document">
+  <div id="filthy-rich-vue-document">
 
     <div
       @click="showValidators = !showValidators"
@@ -48,12 +48,12 @@
 
 <script>
 import * as html from "@leizm/html-parser"
-import RichVue from './components/RichVue.vue'
+import FilthyRichVue from './components/FilthyRichVue.vue'
 
 export default {
   name: 'App',
   components: {
-    RichVue
+    FilthyRichVue
   },
   data: () => ({
     content: "<p><span>Test</span></p>",
@@ -134,7 +134,7 @@ html, body, div {
   box-sizing: border-box;
 }
 
-#amazing-document {
+#filthy-rich-vue-document {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
