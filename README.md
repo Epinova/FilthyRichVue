@@ -5,9 +5,7 @@
 ## Usage
 ```javascript
 <template>
-  <div>
-    <filthy-rich-vue />
-  </div>
+  <filthy-rich-vue />
 </template>
 
 <script>
