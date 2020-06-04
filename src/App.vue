@@ -10,7 +10,7 @@
     </div>
 
     <div class="wrap">
-      <custom-editor
+      <FilthyRichVue
         :content="content"
         @save="contentChanged"
       />

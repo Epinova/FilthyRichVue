@@ -1,6 +1,6 @@
 {
   "name": "@epinova/filthy-rich-vue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A lightweight WYSIWYG rich text editor for Vue",
   "author": "Bård Øien <bard.oien@epinova.no>",
   "bugs": {
@@ -11,7 +11,7 @@
   ],
   "homepage": "https://github.com/Epinova/FilthyRichVue#readme",
   "license": "MIT",
-  "main": "config/index.js",
+  "main": "./index.js",
   "repository": {
     "url": "git+https://github.com/Epinova/FilthyRichVue.git"
   },
