@@ -1,13 +1,13 @@
 <template>
   <div class="filthy-rich-wrapper">
-    <slot class="filthy-rich-over" name="over" />
+    <slot class="filthy-rich-over" name="over" :command="command" :createlink="createlink" />
       <div v-html="internalContent"
             @blur="$emit('blur')"
             @focus="$emit('focus')"
             ref="editable"
             class="filthy-rich-editor"
             contenteditable />
-    <slot class="filthy-rich-under" name="under" />
+    <slot class="filthy-rich-under" name="under" :command="command" :createlink="createlink" />
   </div>
 </template>
 
