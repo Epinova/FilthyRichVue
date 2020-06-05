@@ -2,6 +2,8 @@
   <div class="filthy-rich-wrapper">
     <slot class="filthy-rich-over" name="over" />
       <div v-html="internalContent"
+            @blur="$emit('blur')"
+            @focus="$emit('focus')"
             ref="editable"
             class="filthy-rich-editor"
             contenteditable />
@@ -87,6 +89,9 @@ export default {
   watch: {
     content() {
       this.syncronize()
+       this.$emit('change', {
+        content: this.internalContent
+      })
     }
   },
   beforeDestroy() {
