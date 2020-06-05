@@ -1,11 +1,11 @@
 <template>
   <div class="filthy-rich-wrapper">
-    <slot class="filthy-rich-over" name="over">
+    <slot class="filthy-rich-over" name="over" />
       <div v-html="internalContent"
             ref="editable"
             class="filthy-rich-editor"
             contenteditable />
-    <slot class="filthy-rich-under" name="under">
+    <slot class="filthy-rich-under" name="under" />
   </div>
 </template>
 
