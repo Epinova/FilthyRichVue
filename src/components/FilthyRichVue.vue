@@ -33,7 +33,7 @@ export default {
   },
   methods: {
     command(command) {
-      if (command === 'h2' || command === 'h3' || command === 'p') {
+      if (command === 'h2' || command === 'h3' || command === 'p' || command === 'blockquote') {
         document.execCommand('formatBlock', false, command);
       } else {
         document.execCommand(command, false, null)
